@@ -1,8 +1,8 @@
 # MarketZinciriOtomasyonSistemi
-<b>FORM UYGULAMASI</b>
-<b>MsSQL Kullanılmıştır</b>
-<b>Patron Giriş Bilgileri : 222-222</b>
-<b>Çalışan Giriş Bilgileri : 111-111</b>
+<b>FORM UYGULAMASI</b><br>
+<b>MsSQL Kullanılmıştır</b><br>
+<b>Patron Giriş Bilgileri : 222-222</b><br>
+<b>Çalışan Giriş Bilgileri : 111-111</b><br>
 # AÇIKLAMA
 <ul>
 <li>Marketlerdeki ürünlerin stok durumunu takip edebilmek ve 
