@@ -1,0 +1,88 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="UpdateUrun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UpdateCalisan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Tedarikciler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Urunler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Market.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LoginPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Form1 - Kopya %282%29 - Kopya %282%29.resx">
+      <DependentUpon>Calisan.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Kopya %282%29 - Kopyala - Kopyala.resx">
+      <DependentUpon>Form1 - Kopya (2) - Kopyala.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Kopya %282%29 - Kopyala.resx">
+      <DependentUpon>Calisan.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Kopya %282%29.resx">
+      <DependentUpon>Calisan.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Kopyala - Kopya %282%29 - Kopyala.resx">
+      <DependentUpon>Form1 - Kopyala - Kopya (2).resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Kopyala - Kopya %282%29.resx">
+      <DependentUpon>Calisan.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Kopyala - Kopya %283%29.resx">
+      <DependentUpon>Calisan.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Kopyala - Kopyala - Kopya %282%29.resx">
+      <DependentUpon>Form1 - Kopyala.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Kopyala - Kopyala - Kopyala - Kopyala.resx">
+      <DependentUpon>Form1 - Kopyala - Kopyala - Kopyala.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Kopyala - Kopyala - Kopyala.resx">
+      <DependentUpon>Form1 - Kopyala.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Kopyala - Kopyala.resx">
+      <DependentUpon>Form1 - Kopyala.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Kopyala.resx">
+      <DependentUpon>Calisan.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="UpdateCalisan - Kopyala.resx">
+      <DependentUpon>UpdateCalisan.resx</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
