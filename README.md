@@ -1,5 +1,5 @@
 # MarketZinciriOtomasyonSistemi
-
+<b>FORM UYGULAMASI<b/>
 # AÇIKLAMA
 <ul>
 <li>Marketlerdeki ürünlerin stok durumunu takip edebilmek ve 
