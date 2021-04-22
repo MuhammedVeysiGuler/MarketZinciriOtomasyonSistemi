@@ -28,3 +28,11 @@ azaltma kesinlikle olmasın), hangi pozisyonda çalıştığı (istersem terfi v
 <li>Bir ürün grubuna baktığımda en son ne tarihte bunlara 
 indirim yapmışım görmek isterim.</li>
 </ul>
+# EKRAN GÖRÜNTÜLERİ
+<br><br>
+-<img src="Ekran_Goruntuleri/1-Giris_Ekrani.PNG" >
+-<img src="Ekran_Goruntuleri/2-Arayuz_Ekrani.PNG" >
+-<img src="Ekran_Goruntuleri/3-Calisan_Ekrani.PNG">
+-<img src="Ekran_Goruntuleri/4-marketBilgileri_Ekrani.PNG">
+-<img src="Ekran_Goruntuleri/5-UrunBilgileri_Ekrani.PNG">
+-<img src="Ekran_Goruntuleri/6-IndirimYap_Ekrani.PNG">
